@@ -19,6 +19,8 @@ public class HeaderSection {
 	@FindBy(linkText="Register")
 	public static WebElement register;
 	
+	@FindBy(xpath="//*[@class='dropdown-menu dropdown-menu-right']/li/a[contains(text(),'Login')]")
+	public static WebElement login;
 	
 	
 }
